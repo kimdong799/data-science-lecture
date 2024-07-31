@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "langchain simple app"
+version = "0.1.0"
+description = ""
+authors = ["kimdong799 <kimdong799@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain-google-genai = "^1.0.8"
+langchain-core = "^0.2.25"
+langchain = "^0.2.11"
+langserve = {extras = ["all"], version = "^0.2.2"}
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
