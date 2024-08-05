@@ -3,7 +3,6 @@ from typing import List
 
 from fastapi import FastAPI
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langserve import add_routes
